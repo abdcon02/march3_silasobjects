@@ -7,10 +7,10 @@
         private $price;
 
         function __construct($album_name, $band_name, $image_path, $album_price = 10.99){
-            this->title = $album_name;
-            this->artist = $band_name;
-            this->cover_art = $image_path;
-            this->price = $album_price;
+            $this->title = $album_name;
+            $this->artist = $band_name;
+            $this->cover_art = $image_path;
+            $this->price = $album_price;
         }
 
         function setPrice($new_price){
